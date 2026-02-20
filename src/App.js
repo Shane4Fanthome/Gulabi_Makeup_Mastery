@@ -477,7 +477,7 @@ function Courses(){
           <div>
             <div style={{display:"inline-block",background:"rgba(220,38,38,.15)",border:"1px solid rgba(220,38,38,.3)",padding:"3px 12px",marginBottom:"14px",fontFamily:"'DM Sans',sans-serif",fontSize:".52rem",letterSpacing:".16em",color:"#f87171",textTransform:"uppercase",fontWeight:500}}>Filling Fast - Limited Seats</div>
             <h3 style={{fontFamily:"'Playfair Display',serif",fontSize:"2rem",fontWeight:500,color:"#fff",marginBottom:"9px"}}>Live Grooming Ateliers</h3>
-            <p style={{fontFamily:"'DM Sans',sans-serif",fontSize:".88rem",lineHeight:1.82,color:"rgba(255,255,255,.42)",marginBottom:"18px",maxWidth:"420px",fontWeight:300}}>Max 10 students per batch. Hands-on guidance from Gulabi. Certificate on completion.</p>
+            <p style={{fontFamily:"'DM Sans',sans-serif",fontSize:".88rem",lineHeight:1.82,color:"rgba(255,255,255,.42)",marginBottom:"18px",maxWidth:"420px",fontWeight:300}}>Max 10 students per batch. Hands-on guidance from Gulabi.</p>
             <div style={{display:"flex",gap:"20px",flexWrap:"wrap"}}>
               {["Max 10 Per Batch","25% Advance to Secure","Certificate Included","Live + Recorded Access"].map(f=>(
                 <div key={f} style={{display:"flex",alignItems:"center",gap:"6px"}}>
