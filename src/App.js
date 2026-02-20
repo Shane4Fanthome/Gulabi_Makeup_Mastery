@@ -115,7 +115,7 @@ const SVCS=[
 const CRS=[
   {id:1,title:"Bridal Glow Masterclass",hrs:"24 Hours",price:4999,orig:8999,seats:3,total:10,badge:"BESTSELLER",desc:"Foundation mastery, bridal contouring, longevity rituals and the signature Gulabi glow technique.",mods:["Foundation & Skin Prep","Bridal Contouring","Eye Drama Technique","Longevity Masterclass"],color:"#8B1A3A"},
   {id:2,title:"Evening Glam Deep Dive",hrs:"36 Hours",price:6999,orig:12999,seats:5,total:10,badge:"PREMIUM",desc:"Smokey architecture, editorial highlights, glass-skin techniques and electrifying night-ready artistry.",mods:["Smokey Eye Architecture","Glass Skin Ritual","Highlight Mastery","Colour Theory"],color:"#7A5320"},
-  {id:3,title:"The Complete Grooming Bible",hrs:"48 Hours",price:8999,orig:16999,seats:2,total:10,badge:"MASTER CLASS",desc:"Full-spectrum curriculum — every technique, live model sessions and industry-recognised certification.",mods:["Skincare Foundation","All Makeup Genres","Live Model Sessions","Certificate Awarded"],color:"#8B1A3A"},
+  {id:3,title:"The Complete Grooming Bible",hrs:"48 Hours",price:8999,orig:16999,seats:2,total:10,badge:"MASTER CLASS",desc:"Full-spectrum curriculum — every technique, live model sessions and industry-recognised certification.",mods:["Skincare Foundation","All Makeup Genres","Live Model Sessions"],color:"#8B1A3A"},
 ];
 const TESTI=[
   {name:"Priya Sharma",role:"Bride · Leela Palace Reception",rating:5,text:"Gulabi transformed me into the most radiant version of myself. The makeup lasted 14 hours, every photograph was flawless. I have never felt more beautiful in my life."},
@@ -435,9 +435,9 @@ function Courses(){
           <div>
             <div style={{display:"inline-block",background:"rgba(220,38,38,.15)",border:"1px solid rgba(220,38,38,.3)",padding:"3px 12px",marginBottom:"14px",fontFamily:"'DM Sans',sans-serif",fontSize:".52rem",letterSpacing:".16em",color:"#f87171",textTransform:"uppercase",fontWeight:500}}>Filling Fast - Limited Seats</div>
             <h3 style={{fontFamily:"'Playfair Display',serif",fontSize:"2rem",fontWeight:500,color:"#fff",marginBottom:"9px"}}>Live Grooming Ateliers</h3>
-            <p style={{fontFamily:"'DM Sans',sans-serif",fontSize:".88rem",lineHeight:1.82,color:"rgba(255,255,255,.42)",marginBottom:"18px",maxWidth:"420px",fontWeight:300}}>Max 10 students per batch. Hands-on guidance from Gulabi. Certificate on completion.</p>
+            <p style={{fontFamily:"'DM Sans',sans-serif",fontSize:".88rem",lineHeight:1.82,color:"rgba(255,255,255,.42)",marginBottom:"18px",maxWidth:"420px",fontWeight:300}}>Max 10 students per batch. Hands-on guidance from Gulabi.</p>
             <div style={{display:"flex",gap:"20px",flexWrap:"wrap"}}>
-              {["Max 10 Per Batch","25% Advance to Secure","Certificate Included","Live + Recorded Access"].map(f=>(
+              {["Max 10 Per Batch","25% Advance to Secure","Live + Online"].map(f=>(
                 <div key={f} style={{display:"flex",alignItems:"center",gap:"6px"}}>
                   <div style={{color:"var(--gold2)"}}><Ic.Check/></div>
                   <span style={{fontFamily:"'DM Sans',sans-serif",fontSize:".6rem",letterSpacing:".06em",color:"rgba(255,255,255,.5)",textTransform:"uppercase"}}>{f}</span>
